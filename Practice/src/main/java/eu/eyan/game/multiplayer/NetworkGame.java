@@ -1,6 +1,5 @@
 package eu.eyan.game.multiplayer;
 
-
 public interface NetworkGame
 {
     String getName();

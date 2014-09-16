@@ -1,4 +1,4 @@
-package eu.eyan.amoba;
+package eu.eyan.amoba.gui;
 
 import java.awt.Color;
 import java.awt.event.MouseAdapter;
@@ -9,15 +9,13 @@ import javax.swing.JPanel;
 import com.jgoodies.forms.factories.CC;
 import com.jgoodies.forms.layout.FormLayout;
 
-import eu.eyan.amoba.gui.Field;
-
-public class AmobaTabla extends JPanel
+public class AmobaTablaView extends JPanel
 {
     private static final long serialVersionUID = 1L;
     private Field jelzo = new Field();
     private Field[][] fields = new Field[3][3];
 
-    public AmobaTabla()
+    public AmobaTablaView()
     {
         initTabla();
         jelzo.addMouseListener(new MouseAdapter()
